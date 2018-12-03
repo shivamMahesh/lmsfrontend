@@ -66,6 +66,10 @@ else if(this.state.Password1==="")
   {
   window.alert(`PASSWORD DOES'NT MATCH`);
   }
+  else if(this.state.Phone.length!==10)
+    window.alert("PHONE NUMBER SHOULD BE OF 10 DIGITS")
+  else if(isNaN(parseInt(this.state.Phone)))
+    window.alert("PHONE NUMBER SHOULD BE INTEGER")
   else
   {
   fetch('http://localhost:3000/register',

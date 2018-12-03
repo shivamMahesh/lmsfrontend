@@ -113,14 +113,14 @@ else if(this.state.redirect2===true)
  <div className='mv4 ml0'>
  		  <button className='w-30 grow f4 link ph3 pv3 dib white bg-light-purple' onClick={this.onButtonSubmit1}>REQUEST ITEMS</button>
   </div>
+   <div className='mv4 ml0'>
+      <button className='w-30 grow f4 link ph3 pv3 dib white bg-light-purple' onClick={this.onButtonSubmit4}>RESERVE ITEMS</button>
+  </div>
   <div className='mv4 ml0'>
       <button className='w-30 grow f4 link ph3 pv3 dib white bg-light-purple' onClick={this.onButtonSubmit2}>SHOW ITEMS IN THE LIBRARY</button>
   </div>
   <div className='mv4 ml0'>
-      <button className='w-30 grow f4 link ph3 pv3 dib white bg-light-purple' onClick={this.onButtonSubmit3}>ISSUED ITEMS</button>
-  </div>
-   <div className='mv4 ml0'>
-      <button className='w-30 grow f4 link ph3 pv3 dib white bg-light-purple' onClick={this.onButtonSubmit4}>RESERVE ITEMS</button>
+      <button className='w-30 grow f4 link ph3 pv3 dib white bg-light-purple' onClick={this.onButtonSubmit3}>SHOW YOUR ISSUED ITEMS</button>
   </div>
    <div className='mv4 ml0'>
       <button className='w-30 grow f4 link ph3 pv3 dib white bg-light-purple' onClick={this.onButtonSubmit5}>SHOW YOUR REQUESTED ITEMS</button>
